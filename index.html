@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Artists Tribute</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0d0d0d;
+            color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .artist-section {
+            background-color: #181818;
+            padding: 60px 0;
+            text-align: center;
+            color: #ffc107;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
+        }
+        .artist-section h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #ffc107;
+        }
+        .artist-section p {
+            font-size: 20px;
+            color: #e0e0e0;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        
+        .artist-grid {
+            padding: 50px 0;
+            background-color: #1a1a1a;
+        }
+        
+        .artist-card {
+            background-color: #262626;
+            color: #f2f2f2;
+            border: none;
+            padding: 25px;
+            text-align: center;
+            border-radius: 10px;
+            margin: 15px 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .artist-card:hover {
+            transform: scale(1.05);
+            background-color: #333333;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+        }
+        .artist-card img {
+            width: 100%;
+            max-width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        .artist-card h5 {
+            font-size: 22px;
+            color: #ffc107;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        .artist-card p {
+            font-size: 16px;
+            color: #d1d1d1;
+            line-height: 1.6;
+            padding: 0 10px;
+        }
+        
+        .footer {
+            background-color: #181818;
+            color: #ffc107;
+            text-align: center;
+            padding: 30px;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.6);
+            font-size: 16px;
+        }
+
+       
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+    </style>
+</head>
+<body>
+
+<div class="artist-section">
+    <h1>Tribute to My Favorite Artists</h1>
+    <p>A showcase of style and vibe inspired by my top 12 musical inspirations.</p>
+</div>
+
+<div class="artist-grid container">
+    <div class="row">
+        <!-- Row 1 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 artist-card">
+            <img src="kendrick.jpg" alt="Kendrick Lamar Image">
+            <h5>Kendrick Lamar</h5>
+            <p>Known for his poetic lyrics and thought-provoking messages, Kendrick explores themes of identity, race, and societal struggles.</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 artist-card">
+            <img src="drake.jpg" alt="Drake Image">
+            <h5>Drake</h5>
+            <p>Drake combines catchy hooks with introspective lyrics, often touching on relationships, fame, and success with a smooth flow.</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 artist-card">
+            <img src="partynextdoor.jpg" alt="PARTYNEXTDOOR Image">
+            <h5>PARTYNEXTDOOR</h5>
+            <p>With moody beats and soulful lyrics, PARTYNEXTDOOR brings a unique blend of R&B and hip-hop, often reflecting on love and introspection.</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 artist-card">
+            <img src="Brent Faiyaz.jpg" alt="Brent Faiyaz Image">
+            <h5>Brent Faiyaz</h5>
+            <p>Brent’s smooth voice and raw lyrics explore love, heartbreak, and self-reflection with a nostalgic and fresh style.</p>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 artist-card">
+            <img src="Daniel.jpg" alt="Daniel Caesar Image">
+            <h5>Daniel Caesar</h5>
+            <p>Daniel Caesar’s soulful voice brings emotional depth, exploring love, faith, and self-discovery in his soothing, melodic tracks.</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 artist-card">
+            <img src="Kali.jpg" alt="Kali Uchis Image">
+            <h5>Kali Uchis</h5>
+            <p>Kali blends Latin influences with R&B and pop, with dreamy, psychedelic vibes and themes of empowerment and individuality.</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 artist-card">
+            <img src="H.E.R.jpg" alt="H.E.R. Image">
+            <h5>H.E.R.</h5>
+            <p>H.E.R. brings R&B and soul to life with love and vulnerability themes, known for her deep lyrics and soulful voice.</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 artist-card">
+            <img src="21 savage.jpg" alt="21 Savage Image">
+            <h5>21 Savage</h5>
+            <p>21 Savage’s gritty style delves into survival, struggle, and resilience with an intense and authentic sound.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Row 3 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 artist-card">
+            <img src="sza.jpg" alt="SZA Image">
+            <h5>SZA</h5>
+            <p>SZA’s introspective, soulful sound blends R&B and neo-soul, exploring complex emotions and relationships.</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 artist-card">
+            <img src="Bryson tiller.jpg" alt="Bryson tiller Image">
+            <h5>Bryson Tiller</h5>
+            <p>Combining R&B and trap, Bryson often explores love and self-growth, with smooth, relatable late-night tracks.</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 artist-card">
+            <img src="Miguel.jpg" alt="Miguel Image">
+            <h5>Miguel</h5>
+            <p>Miguel’s music blends R&B, rock, and funk with passion, often touching on love, desire, and freedom.</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 artist-card">
+            <img src="frank ocean.jpg" alt="Frank Ocean Image">
+            <h5>Frank Ocean</h5>
+            <p>Frank Ocean’s introspective lyrics and experimental sound often explore love, identity, and self-reflection in poetic tracks.</p>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body
